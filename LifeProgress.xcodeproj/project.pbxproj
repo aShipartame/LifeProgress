@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		512EC72A2CD11C8B00A15A51 /* LifeProgress Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 512EC7292CD11C8B00A15A51 /* LifeProgress Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		512EC72B2CD11C8B00A15A51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 512EC71D2CD11C8B00A15A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512EC7282CD11C8B00A15A51;
+			remoteInfo = "LifeProgress Watch App";
+		};
+		512EC73C2CD11C8D00A15A51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 512EC71D2CD11C8B00A15A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512EC7282CD11C8B00A15A51;
+			remoteInfo = "LifeProgress Watch App";
+		};
+		512EC7462CD11C8D00A15A51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 512EC71D2CD11C8B00A15A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512EC7282CD11C8B00A15A51;
+			remoteInfo = "LifeProgress Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		512EC7522CD11C8D00A15A51 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				512EC72A2CD11C8B00A15A51 /* LifeProgress Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		512EC7232CD11C8B00A15A51 /* LifeProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		512EC7292CD11C8B00A15A51 /* LifeProgress Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LifeProgress Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		512EC73B2CD11C8D00A15A51 /* LifeProgress Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LifeProgress Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		512EC7452CD11C8D00A15A51 /* LifeProgress Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LifeProgress Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		512EC72D2CD11C8B00A15A51 /* LifeProgress Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LifeProgress Watch App";
+			sourceTree = "<group>";
+		};
+		512EC73E2CD11C8D00A15A51 /* LifeProgress Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LifeProgress Watch AppTests";
+			sourceTree = "<group>";
+		};
+		512EC7482CD11C8D00A15A51 /* LifeProgress Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LifeProgress Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		512EC7262CD11C8B00A15A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512EC7382CD11C8D00A15A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512EC7422CD11C8D00A15A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		512EC71C2CD11C8B00A15A51 = {
+			isa = PBXGroup;
+			children = (
+				512EC72D2CD11C8B00A15A51 /* LifeProgress Watch App */,
+				512EC73E2CD11C8D00A15A51 /* LifeProgress Watch AppTests */,
+				512EC7482CD11C8D00A15A51 /* LifeProgress Watch AppUITests */,
+				512EC7242CD11C8B00A15A51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		512EC7242CD11C8B00A15A51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				512EC7232CD11C8B00A15A51 /* LifeProgress.app */,
+				512EC7292CD11C8B00A15A51 /* LifeProgress Watch App.app */,
+				512EC73B2CD11C8D00A15A51 /* LifeProgress Watch AppTests.xctest */,
+				512EC7452CD11C8D00A15A51 /* LifeProgress Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		512EC7222CD11C8B00A15A51 /* LifeProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512EC7532CD11C8D00A15A51 /* Build configuration list for PBXNativeTarget "LifeProgress" */;
+			buildPhases = (
+				512EC7212CD11C8B00A15A51 /* Resources */,
+				512EC7522CD11C8D00A15A51 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512EC72C2CD11C8B00A15A51 /* PBXTargetDependency */,
+			);
+			name = LifeProgress;
+			packageProductDependencies = (
+			);
+			productName = LifeProgress;
+			productReference = 512EC7232CD11C8B00A15A51 /* LifeProgress.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		512EC7282CD11C8B00A15A51 /* LifeProgress Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512EC74F2CD11C8D00A15A51 /* Build configuration list for PBXNativeTarget "LifeProgress Watch App" */;
+			buildPhases = (
+				512EC7252CD11C8B00A15A51 /* Sources */,
+				512EC7262CD11C8B00A15A51 /* Frameworks */,
+				512EC7272CD11C8B00A15A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				512EC72D2CD11C8B00A15A51 /* LifeProgress Watch App */,
+			);
+			name = "LifeProgress Watch App";
+			packageProductDependencies = (
+			);
+			productName = "LifeProgress Watch App";
+			productReference = 512EC7292CD11C8B00A15A51 /* LifeProgress Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		512EC73A2CD11C8D00A15A51 /* LifeProgress Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512EC7562CD11C8D00A15A51 /* Build configuration list for PBXNativeTarget "LifeProgress Watch AppTests" */;
+			buildPhases = (
+				512EC7372CD11C8D00A15A51 /* Sources */,
+				512EC7382CD11C8D00A15A51 /* Frameworks */,
+				512EC7392CD11C8D00A15A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512EC73D2CD11C8D00A15A51 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				512EC73E2CD11C8D00A15A51 /* LifeProgress Watch AppTests */,
+			);
+			name = "LifeProgress Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "LifeProgress Watch AppTests";
+			productReference = 512EC73B2CD11C8D00A15A51 /* LifeProgress Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		512EC7442CD11C8D00A15A51 /* LifeProgress Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512EC7592CD11C8D00A15A51 /* Build configuration list for PBXNativeTarget "LifeProgress Watch AppUITests" */;
+			buildPhases = (
+				512EC7412CD11C8D00A15A51 /* Sources */,
+				512EC7422CD11C8D00A15A51 /* Frameworks */,
+				512EC7432CD11C8D00A15A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512EC7472CD11C8D00A15A51 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				512EC7482CD11C8D00A15A51 /* LifeProgress Watch AppUITests */,
+			);
+			name = "LifeProgress Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "LifeProgress Watch AppUITests";
+			productReference = 512EC7452CD11C8D00A15A51 /* LifeProgress Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		512EC71D2CD11C8B00A15A51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					512EC7222CD11C8B00A15A51 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					512EC7282CD11C8B00A15A51 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					512EC73A2CD11C8D00A15A51 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 512EC7282CD11C8B00A15A51;
+					};
+					512EC7442CD11C8D00A15A51 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 512EC7282CD11C8B00A15A51;
+					};
+				};
+			};
+			buildConfigurationList = 512EC7202CD11C8B00A15A51 /* Build configuration list for PBXProject "LifeProgress" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 512EC71C2CD11C8B00A15A51;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 512EC7242CD11C8B00A15A51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				512EC7222CD11C8B00A15A51 /* LifeProgress */,
+				512EC7282CD11C8B00A15A51 /* LifeProgress Watch App */,
+				512EC73A2CD11C8D00A15A51 /* LifeProgress Watch AppTests */,
+				512EC7442CD11C8D00A15A51 /* LifeProgress Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		512EC7212CD11C8B00A15A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512EC7272CD11C8B00A15A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512EC7392CD11C8D00A15A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512EC7432CD11C8D00A15A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		512EC7252CD11C8B00A15A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512EC7372CD11C8D00A15A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512EC7412CD11C8D00A15A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		512EC72C2CD11C8B00A15A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512EC7282CD11C8B00A15A51 /* LifeProgress Watch App */;
+			targetProxy = 512EC72B2CD11C8B00A15A51 /* PBXContainerItemProxy */;
+		};
+		512EC73D2CD11C8D00A15A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512EC7282CD11C8B00A15A51 /* LifeProgress Watch App */;
+			targetProxy = 512EC73C2CD11C8D00A15A51 /* PBXContainerItemProxy */;
+		};
+		512EC7472CD11C8D00A15A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512EC7282CD11C8B00A15A51 /* LifeProgress Watch App */;
+			targetProxy = 512EC7462CD11C8D00A15A51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		512EC74D2CD11C8D00A15A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		512EC74E2CD11C8D00A15A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		512EC7502CD11C8D00A15A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LifeProgress Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UDLRHUH9BP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LifeProgress;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aShipartame.LifeProgress.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		512EC7512CD11C8D00A15A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LifeProgress Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UDLRHUH9BP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LifeProgress;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aShipartame.LifeProgress.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		512EC7542CD11C8D00A15A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UDLRHUH9BP;
+				INFOPLIST_KEY_CFBundleDisplayName = LifeProgress;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aShipartame.LifeProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		512EC7552CD11C8D00A15A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UDLRHUH9BP;
+				INFOPLIST_KEY_CFBundleDisplayName = LifeProgress;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aShipartame.LifeProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		512EC7572CD11C8D00A15A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UDLRHUH9BP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aShipartame.LifeProgress-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeProgress Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LifeProgress Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		512EC7582CD11C8D00A15A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UDLRHUH9BP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aShipartame.LifeProgress-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeProgress Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LifeProgress Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		512EC75A2CD11C8D00A15A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UDLRHUH9BP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aShipartame.LifeProgress-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "LifeProgress Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		512EC75B2CD11C8D00A15A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UDLRHUH9BP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aShipartame.LifeProgress-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "LifeProgress Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		512EC7202CD11C8B00A15A51 /* Build configuration list for PBXProject "LifeProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512EC74D2CD11C8D00A15A51 /* Debug */,
+				512EC74E2CD11C8D00A15A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512EC74F2CD11C8D00A15A51 /* Build configuration list for PBXNativeTarget "LifeProgress Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512EC7502CD11C8D00A15A51 /* Debug */,
+				512EC7512CD11C8D00A15A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512EC7532CD11C8D00A15A51 /* Build configuration list for PBXNativeTarget "LifeProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512EC7542CD11C8D00A15A51 /* Debug */,
+				512EC7552CD11C8D00A15A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512EC7562CD11C8D00A15A51 /* Build configuration list for PBXNativeTarget "LifeProgress Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512EC7572CD11C8D00A15A51 /* Debug */,
+				512EC7582CD11C8D00A15A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512EC7592CD11C8D00A15A51 /* Build configuration list for PBXNativeTarget "LifeProgress Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512EC75A2CD11C8D00A15A51 /* Debug */,
+				512EC75B2CD11C8D00A15A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 512EC71D2CD11C8B00A15A51 /* Project object */;
+}
